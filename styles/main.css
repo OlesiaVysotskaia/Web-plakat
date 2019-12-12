@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Code:300,500&display=swap&subset=cyrillic,cyrillic-ext');
+
+body {
+  background-color: #111C30;
+  font-family: 'Fira Code', monospace;
+  background-image: image(../img/stars.svg);
+}
