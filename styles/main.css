@@ -1,7 +1,46 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Code:300,500&display=swap&subset=cyrillic,cyrillic-ext');
 
 body {
-  background-color: #111C30;
+  background-color: #121C41;
   font-family: 'Fira Code', monospace;
-  background-image: image(../img/stars.svg);
+}
+
+@media (min-width: 1920px) {
+  .stars {
+    width: 100vw;
+    z-index: 1;
+    position: absolute;
+    top: 5vw;
+    left: 1vw;
+  }
+
+  .guys {
+    width: 100vw;
+      z-index: 99;
+      position: absolute;
+      top: -8vw;
+      left: 2vw;
+  }
+
+  .planets {
+    width: 97vw;
+    z-index: 88;
+    position: absolute;
+    top: 19vw;
+    left: 5vw;
+  }
+
+  .red, .blue, .yellow, .grey, .earth {
+    display: none;
+  }
+}
+
+@media (min-width: 320px) {
+  .guys {
+    width: 261vw;
+    left: -38vw;
+  }
+  .planets {
+    display: none;
+  }
 }
