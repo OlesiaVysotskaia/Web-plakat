@@ -1,3 +1,4 @@
+@import "reset.css";
 @import url('https://fonts.googleapis.com/css?family=Fira+Code:300,500&display=swap&subset=cyrillic,cyrillic-ext');
 
 body {
@@ -5,63 +6,34 @@ body {
   font-family: 'Fira Code', monospace;
 }
 
-@media (min-width: 1920px) {
-  .stars {
-    width: 100vw;
-    z-index: 1;
-    position: absolute;
-    top: 5vw;
-    left: 1vw;
-  }
-
-  .guys {
-    width: 100vw;
-    z-index: 100;
-    position: absolute;
-    top: -8vw;
-    left: 2vw;
-  }
-
-  .planets {
-    width: 97vw;
-    z-index: 88;
-    position: absolute;
-    top: 19vw;
-    left: 5vw;
-  }
-
-  .red, .blue, .yellow, .grey, .earth {
-    display: none;
-  }
+p {
+  color: #ffff;
+  font-weight: 300;
+  font-size: 14px;
 }
 
-@media (max-width: 320px) {
-  /* .guys {
-    width: 150vw;
-    left: 1vw;
-    z-index: 3;
-  } */
+h1 {
+  color: #97F9F3;
+  font-weight: 500;
+  font-size: 18px;
+  text-shadow: #97F9F3 0px 0px 2px
+}
 
-  .wrapper{
-    width: 100vw;
-    overflow-x: hidden;
-    position: relative;
-  }
-  .planets {
-    display: none;
-  }
-  .stars {
-    width: 90vw;
-    z-index: 1;
-    position: absolute;
-    top: 5vw;
-    left: 1vw;
-  }
-  .earth {
-    width: 100vw;
-    z-index: 2;
-    position: absolute;
-    top: 20vw;
-    left: 70vw;
-  }
+h2 {
+  color: #97F9F3;
+  font-weight: 500;
+  font-size: 16px;
+  text-shadow: #97F9F3 0px 0px 2px
+}
+
+.earth {
+  margin-top: 50vw;
+}
+
+.earth .header h1 {
+}
+
+.earth .header h2 {
+  width: 132px;
+  margin-top: 0vw;
 }
