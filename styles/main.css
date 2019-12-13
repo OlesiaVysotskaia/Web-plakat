@@ -16,10 +16,10 @@ body {
 
   .guys {
     width: 100vw;
-      z-index: 99;
-      position: absolute;
-      top: -8vw;
-      left: 2vw;
+    z-index: 100;
+    position: absolute;
+    top: -8vw;
+    left: 2vw;
   }
 
   .planets {
@@ -35,12 +35,33 @@ body {
   }
 }
 
-@media (min-width: 320px) {
-  .guys {
-    width: 261vw;
-    left: -38vw;
+@media (max-width: 320px) {
+  /* .guys {
+    width: 150vw;
+    left: 1vw;
+    z-index: 3;
+  } */
+
+  .wrapper{
+    width: 100vw;
+    overflow-x: hidden;
+    position: relative;
   }
   .planets {
     display: none;
+  }
+  .stars {
+    width: 90vw;
+    z-index: 1;
+    position: absolute;
+    top: 5vw;
+    left: 1vw;
+  }
+  .earth {
+    width: 100vw;
+    z-index: 2;
+    position: absolute;
+    top: 20vw;
+    left: 70vw;
   }
 }
