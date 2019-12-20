@@ -1,6 +1,8 @@
 @import "reset.css";
 @import url('https://fonts.googleapis.com/css?family=Fira+Code:300,500&display=swap&subset=cyrillic,cyrillic-ext');
 
+/* основное */
+/* 320 */
 body {
   background-color: #121C41;
   font-family: 'Fira Code', monospace;
@@ -9,7 +11,7 @@ body {
 p {
   color: #ffff;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 12px;
 
 }
 
@@ -28,13 +30,80 @@ h2 {
   margin-top: 1vw;
 }
 
+/* Земля */
+
+.text {
+  margin-top: 45vw;
+}
+
 .earth {
-  margin-top: 50vw;
+  width: 51vw;
+  margin-left: 7vw;
 }
 
-.earth .header h1 {
+/* .earth .header h2 {
+  margin-top: 1vw;
+} */
+
+.text p {
+  margin-top: 2vw;
 }
 
-.earth .header h2 {
-  width: 132px;
+/* Кеплер */
+
+.kepler {
+  width: 53vw;
+  margin-left: 41vw;
+  margin-top: 107vw;
+}
+
+/* Тау Кита */
+
+.taukita {
+  width: 53vw;
+  margin-top: 40vw;
+  margin-left: 7vw;
+}
+
+/* Проксима */
+
+.proximach {
+  width: 87vw;
+  margin-top: 57vw;
+  margin-left: 7vw;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.proximach p {
+  width: 53vw;
+}
+
+.proximach h1,h2 {
+  width: 30vw;
+}
+
+.proxima {
+  margin-top: 35vw;
+}
+
+/* Подвал */
+
+footer {
+  margin-top: 20vw;
+  width: 75vw;
+  margin-left: 15vw;
+}
+
+.conclution p:nth-of-type(2){
+  margin-top: 2vw;
+}
+
+.logos {
+  margin-top: 2vw;
+  width: 50vw;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 6vw;
 }
