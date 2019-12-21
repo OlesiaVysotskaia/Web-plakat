@@ -19,7 +19,7 @@ h1 {
   color: #97F9F3;
   font-weight: 500;
   font-size: 18px;
-  text-shadow: #97F9F3 0px 0px 2px
+  text-shadow: #97F9F3 0px 0px 2px;
 }
 
 h2 {
@@ -30,20 +30,78 @@ h2 {
   margin-top: 1vw;
 }
 
-/* Земля */
-
 .text {
-  margin-top: 45vw;
+  position: relative;
+  margin-top: 55vw;
+  z-index: 4;
 }
+
+.guys {
+  width: 124vw;
+  z-index: 3;
+  overflow: hidden;
+  position: absolute;
+  top: -10vw;
+  right: 0vw;
+}
+
+.illustration {
+  width: 145vw;
+}
+
+.planets {
+  position: absolute;
+  overflow: hidden;
+  z-index: 2;
+  top: 37vw;
+  width: 100vw;
+  height: 365vw;
+}
+
+.stars {
+  position: fixed;
+  top: 3vw;
+  width: 100vw;
+  z-index: 1;
+}
+
+/* Планеты */
+
+.earthill {
+  width: 80vw;
+  margin-left: 43vw;
+}
+
+.keplerill {
+  width: 90vw;
+  margin-left: 3vw;
+  margin-top: 35vw;
+}
+.taukitaill {
+  width: 86vw;
+  margin-left: 20vw;
+  margin-top: 4vw;
+}
+
+.proximaill {
+  width: 75vw;
+  margin-top: -16vw;
+  margin-left: -12vw;
+}
+
+.babyproximaill {
+  position: absolute;
+  width: 38vw;
+  top: 331vw;
+  left: -12vw;
+}
+
+/* Земля */
 
 .earth {
   width: 51vw;
   margin-left: 7vw;
 }
-
-/* .earth .header h2 {
-  margin-top: 1vw;
-} */
 
 .text p {
   margin-top: 2vw;
@@ -54,14 +112,14 @@ h2 {
 .kepler {
   width: 53vw;
   margin-left: 41vw;
-  margin-top: 107vw;
+  margin-top: 78vw;
 }
 
 /* Тау Кита */
 
 .taukita {
   width: 53vw;
-  margin-top: 40vw;
+  margin-top: 42vw;
   margin-left: 7vw;
 }
 
@@ -85,15 +143,16 @@ h2 {
 }
 
 .proxima {
-  margin-top: 35vw;
+  margin-top: 40vw;
 }
 
 /* Подвал */
 
 footer {
-  margin-top: 20vw;
+  margin-top: 15vw;
   width: 75vw;
   margin-left: 15vw;
+  margin-bottom: 10vw;
 }
 
 .conclution p:nth-of-type(2){
@@ -101,9 +160,13 @@ footer {
 }
 
 .logos {
-  margin-top: 2vw;
+  margin-top: 4vw;
   width: 50vw;
   display: flex;
   justify-content: space-between;
   margin-left: 6vw;
+}
+
+@media (min-width: 375px) {
+
 }
