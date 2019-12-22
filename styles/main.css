@@ -397,30 +397,25 @@ footer {
 
   footer {
     display: flex;
-    margin-left: 10vw;
+    margin-left: 6vw;
   }
 
   .logos {
-    margin-top: 0vw;
-    margin-left: 5vw;
-  }
-
-  .logos {
-    width: 35vw;
-    margin-top: -1vw;
-    margin-left: 5vw;
+    width: 38vw;
+    margin-top: -2vw;
+    margin-left: 0vw;
   }
 
   .logog, .logoa {
-    width: 10vw;
-    height: 10vw;
+    width: 20vw;
+    height: 20vw;
   }
 
   .logog {
     padding-right: 2vw;
   }
 
-  .conclution p{
+  .conclution p {
     width: 50vw;
   }
 
@@ -434,6 +429,123 @@ footer {
 
   h1, h2 {
     font-size: 30px;
+  }
+
+}
+
+@media (min-width: 1280px) {
+
+  .kepler {
+    margin-top: 71vw;
+  }
+
+  .taukita {
+    margin-top: 47vw;
+  }
+
+  .proximach {
+    margin-top: 49vw;
+  }
+
+  .logos {
+    width: 31vw;
+    margin-top: -4vw;
+    margin-left: 0vw;
+  }
+
+  .proxima {
+    margin-left: 10vw;
+  }
+
+}
+
+@media (min-width: 1365px) {
+
+  .kepler {
+    margin-top: 73vw;
+  }
+
+  .taukita {
+    margin-top: 49vw;
+  }
+
+  .proximach {
+    margin-top: 50vw;
+  }
+
+  .proxima {
+    margin-left: 10vw;
+  }
+
+  p {
+    font-size: 26px;
+  }
+
+  h1, h2 {
+    font-size: 32px;
+  }
+
+  footer {
+    margin-top: 5vw;
+    margin-left: 9vw;
+  }
+
+}
+
+@media (min-width: 1439px) {
+
+  .guys, .planets {
+    margin-top: -2vw;
+  }
+
+  .text {
+    margin-top: 39vw;
+  }
+
+  footer {
+    margin-top: 10vw;
+    margin-left: 9vw;
+  }
+
+}
+
+@media (min-width: 1679px) {
+
+  .earth {
+    width: 25vw;
+  }
+
+  .kepler {
+    margin-top: 73vw;
+    width: 28vw;
+  }
+
+  .taukita {
+    margin-top: 49vw;
+  }
+
+  .proximach {
+    margin-top: 50vw;
+  }
+
+  .proxima {
+    margin-left: 10vw;
+  }
+
+  p {
+    font-size: 30px;
+  }
+
+  h1, h2 {
+    font-size: 36px;
+  }
+
+  .logos {
+    margin-left: 2vw;
+  }
+
+  footer {
+    margin-left: 8vw;
   }
 
 }
