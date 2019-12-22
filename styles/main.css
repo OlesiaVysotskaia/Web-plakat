@@ -12,7 +12,6 @@ p {
   color: #ffff;
   font-weight: 300;
   font-size: 12px;
-
 }
 
 h1 {
@@ -112,7 +111,7 @@ h2 {
 .kepler {
   width: 53vw;
   margin-left: 41vw;
-  margin-top: 78vw;
+  margin-top: 84vw;
 }
 
 /* Тау Кита */
@@ -126,12 +125,16 @@ h2 {
 /* Проксима */
 
 .proximach {
-  width: 87vw;
-  margin-top: 57vw;
-  margin-left: 7vw;
+  width: 100vw;
+  margin-top: 49vw;
+  /* margin-left: 7vw; */
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
+  /* flex-direction: row-reverse;
+  justify-content: space-between; */
+}
+
+.proximach .header {
+  margin-left: -14vw;
 }
 
 .proximach p {
@@ -139,11 +142,12 @@ h2 {
 }
 
 .proximach h1,h2 {
-  width: 30vw;
+  width: 48vw;
 }
 
 .proxima {
-  margin-top: 40vw;
+  margin-top: 55vw;
+  margin-left: 7vw;
 }
 
 /* Подвал */
@@ -167,6 +171,269 @@ footer {
   margin-left: 6vw;
 }
 
-@media (min-width: 375px) {
+@media (min-width: 338px) {
+
+.earth {
+  width: 45vw;
+}
+
+.kepler {
+  width: 45vw;
+}
+
+.taukita {
+  width: 45vw;
+}
+
+.proximach p {
+  width: 49vw;
+}
+
+.proxima {
+  margin-top: 45vw;
+}
+
+}
+
+@media (min-width: 374px) {
+
+  .kepler {
+    margin-top: 85vw;
+  }
+
+  .taukita {
+    margin-top: 45vw;
+  }
+
+  .proxima {
+    margin-top: 55vw;
+  }
+
+  .proximach {
+    margin-top: 43vw;
+  }
+
+  .proximach p {
+    width: 44vw;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  h1,h2 {
+    font-size: 20px;
+  }
+
+}
+
+@media (min-width: 413px) {
+
+  p {
+    font-size: 16px;
+  }
+
+  h1,h2 {
+    font-size: 22px;
+  }
+
+  .kepler {
+    margin-top: 85vw;
+  }
+
+  .proximach p {
+    width: 45vw;
+  }
+
+  .taukita {
+    margin-top: 38vw;
+  }
+
+  .proxima {
+    margin-top: 59vw;
+  }
+
+}
+
+@media (min-width: 768px) {
+
+  p {
+    font-size: 20px;
+  }
+
+  h1,h2 {
+    font-size: 26px;
+  }
+
+  .guys {
+    left: -11vw;
+  }
+
+  .illustration {
+    width: 110vw;
+  }
+
+  .text {
+    margin-top: 39vw;
+  }
+
+  .earth {
+    width: 33vw;
+  }
+
+  .kepler {
+    margin-top: 72vw;
+    width: 30vw;
+    margin-left: 57vw;
+  }
+
+  .taukita {
+    margin-top: 37vw;
+    width: 30vw;
+  }
+
+  .proximach {
+    margin-top: 45vw;
+  }
+
+  .proxima {
+    margin-top: 40vw;
+  }
+
+  .proximach .header p{
+    width: 30vw;
+  }
+
+  .planets {
+    top: 25vw;
+    height: 280vw;
+  }
+
+  .earthill {
+    width: 56vw;
+    margin-left: 41vw;
+  }
+
+  .keplerill {
+    width: 66vw;
+    margin-left: 9vw;
+    margin-top: 31vw;
+  }
+
+  .taukitaill {
+    width: 66vw;
+    margin-left: 28vw;
+    margin-top: 10vw;
+  }
+
+  .proximaill {
+    width: 60vw;
+    margin-top: -14vw;
+    margin-left: -3vw;
+  }
+
+  .babyproximaill {
+    width: 30vw;
+    margin-top: -80vw;
+    margin-left: 4vw;
+  }
+
+  .logos {
+    width: 35vw;
+    margin-top: 2vw;
+    margin-left: 15vw;
+  }
+
+  .logog, .logoa {
+    width: 15vw;
+    height: 15vw;
+  }
+
+  footer {
+    margin-top: 10vw;
+  }
+
+  .text p {
+    margin-top: 1vw;
+  }
+
+  .conclution p:nth-of-type(2) {
+    margin-top: 1vw;
+  }
+
+}
+
+@media (min-width: 1023px) {
+
+  .text {
+    margin-top: 41vw;
+  }
+
+  .earth {
+    width: 29vw;
+  }
+
+  .kepler {
+    margin-top: 69vw;
+    margin-left: 57vw;
+  }
+
+  .taukita {
+    margin-top: 45vw;
+    width: 30vw;
+  }
+
+  .proximach {
+    margin-top: 40vw;
+  }
+
+  .proxima {
+    margin-top: 42vw;
+  }
+
+  .proximach .header p{
+    width: 30vw;
+  }
+
+  footer {
+    display: flex;
+    margin-left: 10vw;
+  }
+
+  .logos {
+    margin-top: 0vw;
+    margin-left: 5vw;
+  }
+
+  .logos {
+    width: 35vw;
+    margin-top: -1vw;
+    margin-left: 5vw;
+  }
+
+  .logog, .logoa {
+    width: 10vw;
+    height: 10vw;
+  }
+
+  .logog {
+    padding-right: 2vw;
+  }
+
+  .conclution p{
+    width: 50vw;
+  }
+
+  h2 {
+    margin-top: 0vw;
+  }
+
+  p {
+    font-size: 24px;
+  }
+
+  h1, h2 {
+    font-size: 30px;
+  }
 
 }
