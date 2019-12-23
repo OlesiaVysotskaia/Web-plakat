@@ -255,6 +255,35 @@ footer {
 
 }
 
+@media (min-width: 454px) {
+
+    .taukita {
+      margin-top: 49vw;
+    }
+
+    .proximach {
+      margin-top: 50vw;
+    }
+
+}
+
+
+@media (min-width: 538px) {
+
+  .kepler {
+    margin-top: 89vw;
+  }
+
+    .taukita {
+      margin-top: 55vw;
+    }
+
+    .proximach {
+      margin-top: 60vw;
+    }
+
+}
+
 @media (min-width: 767px) {
 
   p {
