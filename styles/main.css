@@ -26,7 +26,7 @@ h2 {
   font-weight: 500;
   font-size: 18px;
   text-shadow: #ffff 0px 0px 2px;
-  margin-top: 1vw;
+  margin-top: 0vw;
 }
 
 .text {
@@ -103,34 +103,34 @@ h2 {
 }
 
 .text p {
-  margin-top: 2vw;
+  margin-top: 1vw;
 }
 
 /* Кеплер */
 
 .kepler {
   width: 53vw;
-  margin-left: 41vw;
-  margin-top: 84vw;
+  left: 40vw;
+  top: 109vw;
+  position: absolute;
 }
 
 /* Тау Кита */
 
 .taukita {
   width: 53vw;
-  margin-top: 42vw;
-  margin-left: 7vw;
+  top: 193vw;
+  left: 7vw;
+  position: absolute;
 }
 
 /* Проксима */
 
 .proximach {
   width: 100vw;
-  margin-top: 49vw;
-  /* margin-left: 7vw; */
+  top: 282vw;
   display: flex;
-  /* flex-direction: row-reverse;
-  justify-content: space-between; */
+  position: absolute;
 }
 
 .proximach .header {
@@ -153,10 +153,10 @@ h2 {
 /* Подвал */
 
 footer {
-  margin-top: 15vw;
+  top: 412vw;
   width: 75vw;
-  margin-left: 15vw;
-  margin-bottom: 10vw;
+  left: 15vw;
+  position: absolute;
 }
 
 .conclution p:nth-of-type(2){
@@ -171,7 +171,12 @@ footer {
   margin-left: 6vw;
 }
 
-@media (min-width: 338px) {
+.logog, .logoa {
+  width: 25vw;
+  height: 25vw;
+}
+
+/* @media (min-width: 338px) {
 
 .earth {
   width: 45vw;
@@ -193,25 +198,9 @@ footer {
   margin-top: 45vw;
 }
 
-}
+} */
 
 @media (min-width: 374px) {
-
-  .kepler {
-    margin-top: 85vw;
-  }
-
-  .taukita {
-    margin-top: 45vw;
-  }
-
-  .proxima {
-    margin-top: 55vw;
-  }
-
-  .proximach {
-    margin-top: 43vw;
-  }
 
   .proximach p {
     width: 44vw;
@@ -237,61 +226,28 @@ footer {
     font-size: 22px;
   }
 
-  .kepler {
-    margin-top: 85vw;
-  }
-
-  .proximach p {
-    width: 45vw;
-  }
-
-  .taukita {
-    margin-top: 38vw;
-  }
-
-  .proxima {
-    margin-top: 59vw;
-  }
-
 }
 
-@media (min-width: 454px) {
+@media (min-width: 600px) {
 
-    .taukita {
-      margin-top: 49vw;
-    }
-
-    .proximach {
-      margin-top: 50vw;
-    }
-
-}
-
-
-@media (min-width: 538px) {
-
-  .kepler {
-    margin-top: 89vw;
+  p {
+    font-size: 18px;
   }
 
-    .taukita {
-      margin-top: 55vw;
-    }
-
-    .proximach {
-      margin-top: 60vw;
-    }
+  h1,h2 {
+    font-size: 24px;
+  }
 
 }
 
 @media (min-width: 767px) {
 
   p {
-    font-size: 20px;
+    font-size: 24px;
   }
 
   h1,h2 {
-    font-size: 26px;
+    font-size: 36px;
   }
 
   .guys {
@@ -311,18 +267,18 @@ footer {
   }
 
   .kepler {
-    margin-top: 69vw;
-    width: 30vw;
-    margin-left: 57vw;
+    width: 40vw;
+    top: 84vw;
+    /* left: 44vw; */
   }
 
   .taukita {
-    margin-top: 37vw;
-    width: 30vw;
+    width: 40vw;
+    top: 147vw;
   }
 
   .proximach {
-    margin-top: 45vw;
+    top: 216vw;
   }
 
   .proxima {
@@ -330,7 +286,7 @@ footer {
   }
 
   .proximach .header p{
-    width: 30vw;
+    width: 40vw;
   }
 
   .planets {
@@ -344,15 +300,15 @@ footer {
   }
 
   .keplerill {
-    width: 66vw;
-    margin-left: 9vw;
-    margin-top: 31vw;
+    width: 60vw;
+    margin-left: 10vw;
+    margin-top: 30vw;
   }
 
   .taukitaill {
     width: 66vw;
     margin-left: 28vw;
-    margin-top: 10vw;
+    margin-top: 17vw;
   }
 
   .proximaill {
@@ -379,7 +335,7 @@ footer {
   }
 
   footer {
-    margin-top: 10vw;
+    top: 309vw;
   }
 
   .text p {
@@ -403,30 +359,23 @@ footer {
   }
 
   .kepler {
-    margin-top: 69vw;
-    margin-left: 57vw;
+    top: 84vw;
+    left: 53vw;
+    width: 42vw;
   }
 
   .taukita {
-    margin-top: 45vw;
     width: 30vw;
-  }
-
-  .proximach {
-    margin-top: 40vw;
-  }
-
-  .proxima {
-    margin-top: 42vw;
   }
 
   .proximach .header p{
-    width: 30vw;
+    width: 41vw;
   }
 
   footer {
     display: flex;
-    margin-left: 6vw;
+    width: 88vw;
+    left: 5vw;
   }
 
   .logos {
@@ -453,60 +402,6 @@ footer {
   }
 
   p {
-    font-size: 24px;
-  }
-
-  h1, h2 {
-    font-size: 30px;
-  }
-
-}
-
-@media (min-width: 1280px) {
-
-  .kepler {
-    margin-top: 71vw;
-  }
-
-  .taukita {
-    margin-top: 47vw;
-  }
-
-  .proximach {
-    margin-top: 49vw;
-  }
-
-  .logos {
-    width: 31vw;
-    margin-top: -4vw;
-    margin-left: 0vw;
-  }
-
-  .proxima {
-    margin-left: 10vw;
-  }
-
-}
-
-@media (min-width: 1365px) {
-
-  .kepler {
-    margin-top: 73vw;
-  }
-
-  .taukita {
-    margin-top: 49vw;
-  }
-
-  .proximach {
-    margin-top: 50vw;
-  }
-
-  .proxima {
-    margin-left: 10vw;
-  }
-
-  p {
     font-size: 26px;
   }
 
@@ -514,59 +409,129 @@ footer {
     font-size: 32px;
   }
 
+}
+
+@media (min-width: 1279px) {
+
+  .illustration {
+    width: 100vw;
+    margin-left: 12vw;
+  }
+
+  .text {
+    margin-top: 32vw;
+  }
+
+  .earth {
+    margin-left: 5vw;
+  }
+
+  .kepler {
+    top: 78vw;
+  }
+
+  .taukita {
+    top: 140vw;
+  }
+
+  .proximach {
+    top: 198vw;
+    left: 9vw;
+  }
+
+  .proxima {
+    margin-top: 35vw;
+  }
+
+  p {
+    font-size: 24px;
+  }
+
+  h1, h2 {
+    font-size: 48px;
+  }
+
   footer {
-    margin-top: 5vw;
+  display: flex;
+  width: 88vw;
+  left: 6vw;
+  top: 280vw;
+  }
+
+  .logos {
+  width: 33vw;
+  margin-top: -2vw;
+  margin-left: 2vw;
+  }
+
+  .logog, .logoa {
+  width: 15vw;
+  height: 15vw;
+  }
+
+  .earthill {
+    width: 49vw;
+    margin-left: 48vw;
+    margin-top: -4vw;
+  }
+
+  .keplerill {
+    width: 55vw;
+    margin-left: 18vw;
+    margin-top: 30vw;
+  }
+
+  .taukitaill {
+    width: 60vw;
+    margin-left: 35vw;
+    margin-top: 9vw;
+  }
+
+  .proximaill {
+    width: 49vw;
+    margin-top: -11vw;
     margin-left: 9vw;
+  }
+
+  .babyproximaill {
+    width: 26vw;
+    width: 26vw;
+    margin-top: -107vw;
+    margin-left: 16vw;
+  }
+
+  .planets {
+    left: 0vw;
+    width: 101vw;
   }
 
 }
 
-@media (min-width: 1439px) {
+@media (min-width: 1365px) {
 
-  .guys, .planets {
-    margin-top: -2vw;
+  p {
+    font-size: 26px;
   }
 
-  .text {
-    margin-top: 39vw;
-  }
-
-  footer {
-    margin-top: 10vw;
-    margin-left: 9vw;
+  h1, h2 {
+    font-size: 50px;
   }
 
 }
 
 @media (min-width: 1679px) {
 
-  .earth {
-    width: 25vw;
-  }
-
-  .kepler {
-    margin-top: 73vw;
-    width: 28vw;
-  }
-
-  .taukita {
-    margin-top: 49vw;
-  }
-
-  .proximach {
-    margin-top: 50vw;
-  }
-
-  .proxima {
-    margin-left: 10vw;
-  }
-
   p {
-    font-size: 30px;
+    font-size: 36px;
   }
 
   h1, h2 {
-    font-size: 36px;
+    font-size: 72px;
+  }
+
+  .logog, .logoa {
+  width: 17vw;
+  height: 17vw;
   }
 
   .logos {
@@ -574,7 +539,7 @@ footer {
   }
 
   footer {
-    margin-left: 8vw;
+
   }
 
 }
